@@ -1,0 +1,93 @@
+.uploadFile {
+    margin-top: 2%;
+}
+
+.uploadFileLabel{
+    display: flex;
+    margin: 1% 5%;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.uploadFileInput{
+    display: flex;
+    margin: 1% 5%;
+    align-self: flex-start;
+}
+
+.uploadFileSubmit{
+    display: flex;
+    margin: 1% 5%;
+    align-self: flex-start;
+}
+
+.visualizerContainer {
+    display: flex;
+    margin: 1% 5%;
+}
+
+.toggleGraph {
+    display: flex;
+    margin: 1% 5%;
+}
+
+.stats {
+    display: flex;
+	margin: 1% 5%;
+	align-self: flex-start;
+}
+
+h5 {
+    display: flex;
+    margin: 1% 5%;
+    font-size: 1em;
+    font-weight: regular;
+    align-self: flex-start;
+}
+
+.astTreeGraph {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    width: 40%;
+    height: 22%;
+}
+
+.astTreeGraphFuncName {
+    position: absolute;
+    left: 9%;
+    top: 28%;
+    font-size: 1.3em;
+}
+
+.astTreeGraphGraph {
+    position: absolute;
+    right: 0%;
+    width: 90%;
+    height: 100%;
+}
+
+svg.customSvg{
+	overflow: visible;
+}
+
+svg.customSvg .node circle {
+	fill: #F3F3FF;
+	stroke: #2593B8;
+    stroke-width: 0.1rem;
+}
+
+svg.customSvg .node text {
+	position: absolute;
+	font-size:1.3em;
+	background-color: #444;
+	fill: #000;
+}
+
+
+svg.customSvg path.link {
+	fill: none;
+	stroke: #2593B8;
+	stroke-width: 1.5px;
+}
